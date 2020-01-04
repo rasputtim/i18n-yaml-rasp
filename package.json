@@ -1,0 +1,36 @@
+{
+  "name": "i18n-yaml-rasp",
+  "version": "1.0.0",
+  "description": "i18n internationalization module for Node.js. Based in the version 0.8.3 of the i18n module. refactored to ES6 and added yaml support.",
+  "main": "i18n.mjs",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "jshint": "jshint --verbose .",
+    "test": "npm run jshint && mocha --require esm --exit",
+    "test-ci": "npm run jshint && istanbul cover mocha -- --require esm --exit"
+  },
+  "keywords": [
+    "i18n"
+  ],
+  "author": "rasputtim",
+  "license": "ISC",
+  "dependencies": {
+    "cldr-core": "^36.0.0",
+    "debug": "^4.1.1",
+    "fs": "0.0.1-security",
+    "js-yaml": "^3.13.1",
+    "make-plural-compiler": "^5.0.0",
+    "math-interval-parser": "^2.0.1",
+    "messageformat": "^2.3.0",
+    "mustache": "^3.2.1",
+    "path": "^0.12.7",
+    "should": "^13.2.3",
+    "sinon": "^8.0.2",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25"
+  }
+}

@@ -1,0 +1,53 @@
+{
+	"Hello": "Hello",
+	"cat": {
+		"one": "cat",
+		"other": "cat"
+	},
+	"Empty": "Empty",
+	"Hello %s, how are you today?": "Hello %s, how are you today?",
+	"weekend": "weekend",
+	"Hello %s, how are you today? How was your %s.": "Hello %s, how are you today? How was your %s.",
+	"Hello {{name}}": "Hello {{name}}",
+	"Hello {{name}}, how was your %s?": "Hello {{name}}, how was your %s?",
+	"ordered arguments": "ordered arguments",
+	"ordered arguments with numbers": "ordered arguments with numbers",
+	"repeated argument": "repeated argument",
+	"Hi": "Hi",
+	"Howdy": "Howdy",
+	"%s cat": {
+		"one": "%s cat",
+		"other": "%s cats"
+	},
+	"tree": "tree",
+	"There is one monkey in the %%s": {
+		"one": "There is one monkey in the %%s",
+		"other": "There are %d monkeys in the %%s"
+	},
+	"There is one monkey in the %s": {
+		"one": "There is one monkey in the %s",
+		"other": "There are %d monkeys in the %s"
+	},
+	"In {lang} there {NUM, plural,zero{are zero for #}one{is one for #}two{is two for #}few{are a few for #}many{are many for #}other{others for #}}": "In {lang} there {NUM, plural,zero{are zero for #}one{is one for #}two{is two for #}few{are a few for #}many{are many for #}other{others for #}}",
+	"%s book": {
+		"one": "%s book",
+		"other": "%s book"
+	},
+	"Hello World": "Hello World",
+	"car": "car",
+	"%s dog": {
+		"one": "%s dog",
+		"other": "%s dog"
+	},
+	"some.deeper.example": "some.deeper.example",
+	"some.other.example:with defaults": "some.other.example:with defaults",
+	"example.nested.plurals:%s kitty": {
+		"one": "example.nested.plurals:%s kitty",
+		"other": "example.for.plurals:%s kitties"
+	},
+	"example.single.plurals:%s kitty": {
+		"one": "example.single.plurals:%s kitty",
+		"other": "example.single.plurals:%s kitty"
+	},
+	"In {language} there {N, plural,zero{are zero for # }one{is one for # }two{is two for # }few{are a few for # }many{are many for # }other{others for # }}": "In {language} there {N, plural,zero{are zero for # }one{is one for # }two{is two for # }few{are a few for # }many{are many for # }other{others for # }}"
+}

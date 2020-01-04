@@ -1,0 +1,11 @@
+{
+  "name": "mytest",
+  "version": "1.0.0",
+  "description": "test script for i18n",
+  "main": "\"\"",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rasputtim",
+  "license": "ISC"
+}

@@ -1,0 +1,21 @@
+{
+	"%s cat": {
+		"one": "%s cat",
+		"other": "%s cats"
+	},
+	"cat": {
+		"one": "cat",
+		"other": "cat"
+	},
+	"Empty": "Empty",
+	"Hello": "Hello",
+	"tree": "tree",
+	"There is one monkey in the %%s": {
+		"one": "There is one monkey in the %%s",
+		"other": "There are %d monkeys in the %%s"
+	},
+	"There is one monkey in the %s": {
+		"one": "There is one monkey in the %s",
+		"other": "There are %d monkeys in the %s"
+	}
+}
