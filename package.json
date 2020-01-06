@@ -8,8 +8,9 @@
   },
   "scripts": {
     "jshint": "jshint --verbose .",
-    "test": "npm run jshint && mocha --require esm --exit",
-    "test-ci": "npm run jshint && istanbul cover mocha -- --require esm --exit"
+    "test": "npm run jshint && mocha-esm ./test/i18n.api.global.mjs",
+    "test-ci": "npm run jshint && istanbul cover mocha -- --require esm --exit",
+    "debug": "mocha --require esm --exit"
   },
   "keywords": [
     "i18n"

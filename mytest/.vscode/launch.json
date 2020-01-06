@@ -16,7 +16,7 @@
             "runtimeArgs": [
                 "--experimental-modules"
             ],
-            "program": "${workspaceFolder}/i18n.api.global.js"
+            "program": "${workspaceFolder}/i18n.api.global.mjs"
         }
     ]
 }

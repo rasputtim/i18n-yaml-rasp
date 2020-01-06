@@ -1,3 +1,14 @@
+
+
+
+import mocha from global:
+npm link <global-package>
+npm link mocha
+npm link mocha-esm
+
+error: SyntaxError: Cannot use import statement outside a module
+add  "type": "module" to the package.json file
+
 error: 
 i18n-yaml-rasp@1.0.0 jshint /home/dono/projetos/Nodejs/i18n-yaml-rasp
 > jshint --verbose .
@@ -9,5 +20,8 @@ import { i18n } from '../i18n';
 SyntaxError: Cannot use import statement outside a module
 
 
-solution: npm i -D esm
+solution1 : npm i -D esm
 https://stackoverflow.com/questions/46487307/is-it-possible-to-use-es6-modules-in-mocha-tests
+
+solution 2: https://github.com/stefanpenner/mocha-esm
+this is working ok
